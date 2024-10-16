@@ -3,15 +3,15 @@
 
 class Tester{
     public:
-    // 1a,b,c,d.) COMPLETE ( constructor - done in int main() )
-    bool testCopyConstructorError(const Solitaire& solitaire); // 2a. COMPLETE ( although test fails )
+    // 1a,b,c,d. COMPLETE ( constructor - done in int main() )
+    bool testCopyConstructorError(const Solitaire& solitaire); // 2a. COMPLETE 
     bool testCopyConstructorNormal(const Solitaire& solitaire);// 2b. COMPLETE
     bool testDestructorError();  // 3a. COMPLETE
     bool testDestructorNormal(); // 3b. COMPLETE
     bool testClearError();      // 4a. COMPLETE
     bool testClearNormal();     // 4b. COMPLETE
     bool testNewBoardError();   // 5a. COMPLETE   
-    bool testNewBoardNormal();  // 5b. COMPLETE ( newBoard results in false )
+    bool testNewBoardNormal();  // 5b. COMPLETE 
     bool testChangeBoard();     // 6. COMPLETE     
 };
 
