@@ -4,8 +4,7 @@
 #include <iostream>
 #include <string>
 using namespace std;
-class Grader;//this class is for grading purposes, no need to do anything
-class Tester;//this is your tester class, you add your test functions in this class
+class Tester;//tester class, add test functions in this class
 // ENGLISH board shape has 33 holes
 // DIAMOND board tepe has 41 holes
 // We do not support FRENCH board
